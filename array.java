@@ -1,11 +1,8 @@
 import java.util.Scanner;
-
 public class array {
     public static void main(String[] args) {
         int[] arr = {10, 20, 30, 40, 50};
-
         Scanner sc = new Scanner(System.in);
-
         System.out.print("Enter the index: ");
         int index = sc.nextInt();
 
@@ -14,7 +11,6 @@ public class array {
         } else {
             System.out.println("Invalid index!");
         }
-
         sc.close();
     }
 }
