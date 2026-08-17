@@ -8,12 +8,10 @@ class Solution {
 
         return (int) Math.abs(ChronoUnit.DAYS.between(d1, d2));
     }
-
-    // For quick testing
     public static void main(String[] args) {
         Solution sol = new Solution();
 
-        System.out.println(sol.daysBetweenDates("2019-06-29", "2019-06-30")); // Output: 1
-        System.out.println(sol.daysBetweenDates("2020-01-15", "2019-12-31")); // Output: 15
+        System.out.println(sol.daysBetweenDates("2019-06-29", "2019-06-30")); 
+        System.out.println(sol.daysBetweenDates("2020-01-15", "2019-12-31")); 
     }
 }
